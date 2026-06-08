@@ -10,17 +10,7 @@ export default function MainLayout() {
         {/* Logo */}
         <div>
           <h1 className="text-5xl font-bold">
-            <span className="text-orange-500">W</span>el
-            <span className="font-light">come</span>
-          </h1>
-        </div>
-
-        {/* Menu */}
-        <div className="flex items-center gap-12 text-xl font-medium">
-
-          <Link
-            to="/"
-            className="hover:text-orange-500 transition"
+            <span className="text-orange-500">W</span>el <span className="font-light">come</span> </h1> </div> {/* Menu */} <div className="flex items-center gap-12 text-xl font-medium"> <Link to="/" className="hover:text-orange-500 transition"
           >
             Home
           </Link>
